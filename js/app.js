@@ -69,6 +69,8 @@ const updateTaxAndCharge = () => {
     setInnerText("delivery-charge", 60);
     setInnerText("total-tax", priceConverted * 0.4);
   }
+  // total updated price modified
+  updateTotal();
 };
 
 //grandTotal update function
