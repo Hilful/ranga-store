@@ -1,10 +1,19 @@
+
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  background-color: seashell!important;
+}
+#input-field{
+  width: fit-content;
+  height: auto;
+  border: none;
+  outline: none;
+
 }
 .search-field {
   border: none;
-  border-radius: 50px;
+  border-radius: 0px;
   padding: 5px;
   outline: none;
 }
@@ -22,9 +31,14 @@ body {
 }
 /* search box button allignment is fixed in this part of the code  */
 .search-button {
-  padding: 10px 50px;
-  border-radius: 25px;
+  padding: auto;
+  border-radius: 30px;
   margin-left: 43px;
+}
+/* Rating color details  */
+.fas {
+  color: yellow;
+
 }
 #all-products {
   display: grid;
