@@ -6,10 +6,11 @@ const loadProducts = () => {
 
 
 // show all product in UI 
+// correction of images at their proper place are coddected in line number 13 and the effect can be seen on line number 18 
 const showProducts = (products) => {
   const allProducts = products.map((pd) => pd);
   for (const product of allProducts) {
-    const image = product.images;
+    const image = product.image;
     const div = document.createElement("div");
     div.classList.add("product");
     div.innerHTML = `<div class="single-product">

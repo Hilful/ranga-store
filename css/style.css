@@ -20,6 +20,7 @@ body {
   margin-top: 50px;
   border-right: none;
 }
+/* search box button allignment is fixed in this part of the code  */
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
